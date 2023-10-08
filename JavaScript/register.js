@@ -3,15 +3,15 @@ import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, se
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.12.1/firebase-app.js";
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyCr7Lx_UdaHku6JTV5B_uekdqnFXLKi-Bc",
-  authDomain: "codeadept2022.firebaseapp.com",
-  databaseURL: "https://codeadept2022-default-rtdb.firebaseio.com",
-  projectId: "codeadept2022",
-  storageBucket: "codeadept2022.appspot.com",
-  messagingSenderId: "953883757907",
-  appId: "1:953883757907:web:649da32272215e2a06e5a6"
-};
+const firebaseConfig = { 
+  apiKey: "AIzaSyBRBHtszcovM8QQb7RxqU8lkmANjAIn6uc", 
+  authDomain: "codeadept2023.firebaseapp.com", 
+  projectId: "codeadept2023", 
+  storageBucket: "codeadept2023.appspot.com", 
+  messagingSenderId: "454622602321", 
+  appId: "1:454622602321:web:bbdf33889cd5489d64c470", 
+  measurementId: "G-1GSY8Y5JBC" 
+}; 
 
 export const app = initializeApp(firebaseConfig);
 
